@@ -1,0 +1,30 @@
+{
+  "name": "hack30backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hack30KamandDebug/hack30backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hack30KamandDebug/hack30backend/issues"
+  },
+  "homepage": "https://github.com/Hack30KamandDebug/hack30backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.853.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "node-cron": "^2.0.3",
+    "validator": "^13.5.2"
+  }
+}
